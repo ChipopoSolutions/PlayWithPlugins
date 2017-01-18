@@ -1,6 +1,9 @@
 #!groovy
 
-stage('stage A')
-{
-    echo 'chipopo'
+node(){
+    
+    stage('stage A')
+    {
+        echo 'chipopo'
+    }
 }
